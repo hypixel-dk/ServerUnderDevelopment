@@ -1,0 +1,21 @@
+# ServerUnderDevelopment - Allowed Users Configuration
+# Add the exact Minecraft usernames of players who should be allowed to join
+
+allowed_users:
+  - "ExampleUser1"
+  - "ExampleUser2"
+  - "Developer1"
+  # Add more usernames as needed
+
+# Message shown to players who are not allowed to join
+# Use & for color codes (e.g., &c for red, &a for green, &l for bold)
+kick_message: |
+  &c&l⚠ SERVER UNDER DEVELOPMENT ⚠
+  
+  &7This server is currently under development.
+  &7Only authorized users can join at this time.
+  
+  &6Please try again later!
+  
+  &8Contact the server administrator if you believe
+  &8this is an error.

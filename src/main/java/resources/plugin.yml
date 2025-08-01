@@ -1,0 +1,22 @@
+name: ServerUnderDevelopment
+version: 1.0.0
+main: com.ha1fdan.serverunderdevelopment.ServerUnderDevelopment
+api-version: 1.21
+author: Ha1fdan
+description: A plugin that only allows specific users to join during development
+website: https://github.com/hypixel-dk/ServerUnderDevelopment
+
+commands:
+  serverdev:
+    description: ServerUnderDevelopment plugin commands
+    usage: /<command> [reload]
+    permission: serverdev.admin
+    aliases: [sdev, devserver]
+
+permissions:
+  serverdev.admin:
+    description: Allows access to ServerUnderDevelopment admin commands
+    default: op
+  serverdev.bypass:
+    description: Allows bypassing the development restriction
+    default: false
